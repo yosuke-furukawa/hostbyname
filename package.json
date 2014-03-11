@@ -1,0 +1,17 @@
+{
+  "name": "hostbyname",
+  "version": "0.0.1",
+  "description": "DNS getHostByName library, dns.resolve is used getaddrinfo. but we need to use gethostbyname for DNS optimization",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "dns",
+    "resolve",
+    "hostbyname"
+  ],
+  "engine": { "node" : "< 0.11.6"},
+  "author": "yosuke-furukawa",
+  "license": "MIT"
+}
