@@ -1,17 +1,21 @@
 {
   "name": "hostbyname",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "DNS getHostByName library, dns.resolve is used getaddrinfo. but we need to use gethostbyname for DNS optimization",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
+  },
+  "repository" :{
+    "type" : "git",
+    "url" : "http://github.com/yosuke-furukawa/hostbyname.git"
   },
   "keywords": [
     "dns",
     "resolve",
     "hostbyname"
   ],
-  "engine": { "node" : "< 0.11.6"},
+  "engines": { "node" : "< 0.11.6"},
   "author": "yosuke-furukawa",
   "license": "MIT"
 }
